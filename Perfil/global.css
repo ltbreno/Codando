@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .tools ul li img{
+    width: 50%;
+    margin: 2rem;
+}
+
+.text {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.img {
+    max-width: 92.5%;
+    border-radius: 2rem;
+}
+
+.imgjs {
+    max-width: 100%;
+}
